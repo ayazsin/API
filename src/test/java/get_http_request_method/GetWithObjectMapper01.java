@@ -47,6 +47,8 @@ public class GetWithObjectMapper01 extends JsonPlaceHolderBaseUrl {
         //2.Way
         JsonPlaceHolderTestData expected = new JsonPlaceHolderTestData();
         String expectedData = expected.expectedDataInString(10, "quis eius est sint explicabo",true);
+        System.out.println(expectedData);
+        //{"userId":10,"title":"quis eius est sint explicabo","completed":true};
         HashMap<String, Object> expectedDataMap = JsonUtil.convertJsonToJava(expectedData, HashMap.class);
         //3.Step: Send the request and get the response
         Response response = given().spec(spec).when().get("/{first}/{second}");

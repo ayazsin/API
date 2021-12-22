@@ -53,7 +53,7 @@ public class Get01 {
 
         //How to print status code, status line, content type, etc. on the console
         System.out.println("Status Code is " + response.getStatusCode());
-        System.out.println("Status Line is" + response.getStatusLine());
+        System.out.println("Status Line is " + response.getStatusLine());
         System.out.println("Content Type is " + response.getContentType());
         System.out.println("Time is " + response.getTime());
         System.out.println("Headers are \n" + response.getHeaders());

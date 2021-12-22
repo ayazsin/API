@@ -37,7 +37,7 @@ public class Get02 extends HerOkuAppBaseUrl {
 
         spec.pathParams("first","booking","second",1001);
 
-       //2.Step: Set the expected date
+       //2.Step: Set the expected data
 
        //3.Step:Send the request and get the response
 
